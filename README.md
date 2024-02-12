@@ -1,0 +1,4 @@
+ - College Scheduler App
+ - Allows user to keep track of exams, assignments, and classes within a easy-to-use UI
+ - Integrated with Google Calendar to keep track of a to-do list
+ - Utilizes Android Studio app interface
