@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Collegescheduler"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Collegescheduler.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.home.EditClassActivity"
+            android:label="Edit Class"
+            android:theme="@style/Theme.Collegescheduler.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.gallery.EditAssignmentActivity"
+            android:label="Edit Assignment"
+            android:theme="@style/Theme.Collegescheduler.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.exams.EditExamActivity"
+            android:label="Edit Exam"
+            android:theme="@style/Theme.Collegescheduler.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.todo.ToDoActivity"
+            android:label="Edit ToDo"
+            android:theme="@style/Theme.Collegescheduler.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
